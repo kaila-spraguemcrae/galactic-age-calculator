@@ -20,4 +20,8 @@ describe( 'SpaceAge', () => {
   test('should calculate age into Venus years', () => {
     expect(spaceAge.venus()).toEqual(45);
   });
+
+  test('should calculate age into Mars years', () => {
+    expect(spaceAge.mars()).toEqual(15);
+  }); 
 });
