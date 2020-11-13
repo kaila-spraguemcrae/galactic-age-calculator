@@ -18,20 +18,13 @@ export default class SpaceAge {
     let arr = [0.24, 0.62, 1.88, 11.86] 
     arr.forEach((num1, i) => {
       let result = Math.round(this.life / num1);
-      if (result > this.ageArr[i]) {
+      if (result >= this.ageArr[i]) {
         this.lifeArr.push(result - this.ageArr[i]);
-      } 
-      this.lifeArr.push(this.ageArr[i] - result);
+      } else {
+        this.lifeArr.push(this.ageArr[i] - result);
+      }
     });
   }
-
-//   mercuryLife() {
-//     let result = Math.round(this.life / 0.24);
-//     if (this.ageArr[0] <=  result) {
-//       return result - this.ageArr[0]; 
-//     }  
-//     return this.ageArr[0] - result;
-//   }
 
 //   venusLife() {
 //     let result = Math.round(this.life / 0.62);
