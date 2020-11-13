@@ -9,7 +9,7 @@ export default class SpaceAge {
   }
 
   venus() {
-    return Math.round(this.age / 0.2);
+    return Math.round(this.age / 0.62);
   }
 
   mars() {
