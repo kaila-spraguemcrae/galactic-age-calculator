@@ -18,6 +18,6 @@ describe( 'SpaceAge', () => {
   });
 
   test('should calculate age into Venus years', () => {
-    expect(spaceAge.venus).toEqual(45);
+    expect(spaceAge.venus()).toEqual(45);
   });
 });
