@@ -27,6 +27,10 @@ export default class SpaceAge {
     return Math.round(this.age / 1.88);
   }
 
+  marsLife(obj) {
+    
+  }
+
   jupiter() {
     return Math.round(this.age / 11.86);
   }
