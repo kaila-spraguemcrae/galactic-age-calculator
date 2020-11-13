@@ -9,4 +9,7 @@ export default class SpaceAge {
     return Math.round(result);
   }
 
+  venus() {
+    
+  }
 };
