@@ -46,4 +46,5 @@ describe( 'SpaceAge', () => {
   test('Should calculate how many years user has left to live on Jupiter', () => {
     expect(spaceAge.jupiterLife()).toEqual(5);
   });
+
 });

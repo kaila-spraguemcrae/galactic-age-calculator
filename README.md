@@ -48,12 +48,17 @@ If you have node you should run `npm install` in command line to gain access to 
 | Should calculate age into Jupiter Years | 28 | 2 |
 | **Mercury Life Expectancy** |||
 | Should calculate how many years user has left to live on Mercury| 28, 80 | 216 years left |
+| Should calculate how many years user has lived over the life expectancy on Mercury| 85, 80 | 21 years over life expectancy |
 | **Venus Life Expectancy** |||
 | Should calculate how many years user has left to live on Venus| 28, 80 | 84 years left |
+| Should calculate how many years user has lived over the life expectancy on Venus| 85, 80 | 8 years over life expectancy |
 | **Mars Life Expectancy** |||
 | Should calculate how many years user has left to live on Mars| 28, 80 | 28 years left |
+| Should calculate how many years user has lived over the life expectancy| 85, 80 | 2 years over life expectancy |
 | **Jupiter Life Expectancy** |||
 | Should calculate how many years user has left to live on Jupiter| 28, 80 | 5 years left |
+| Should calculate how many years user has lived over the life expectancy| 85, 80 | 0 years over life expectancy |
+
 
 
 </details>
