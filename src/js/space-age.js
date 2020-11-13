@@ -5,7 +5,7 @@ export default class SpaceAge {
   }
 
   mercury() {
-    return Math.round(this.age / 0.28);
+    return Math.round(this.age / 0.24);
   }
 
   venus() {
