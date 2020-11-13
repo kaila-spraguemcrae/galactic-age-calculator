@@ -1,4 +1,4 @@
-//import Triangle from './triangle.js'; //export default function Triangle() {}
+import SpaceAge from './js/space-age.js'; 
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
