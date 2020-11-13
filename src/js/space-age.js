@@ -14,10 +14,9 @@ export default class SpaceAge {
 
   mars() {
     return Math.round(this.age / 1.88);
-    
   }
 
   jupiter() {
-    return Math.round(this.age / 11.86);
+    return Math.round(this.age / 1.86);
   }
 };
