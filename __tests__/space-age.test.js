@@ -8,17 +8,17 @@ describe( 'SpaceAge', () => {
     spaceAge = new SpaceAge("Kaila", 28, 80);
   });
 
-  test('should create and instance of SpaceAge', () => {
+  test('Should create and instance of SpaceAge', () => {
     expect(spaceAge.name).toEqual("Kaila");
     expect(spaceAge.age).toEqual(28);
     expect(spaceAge.life).toEqual(80);
   });
 
-  test('should calculate age into Mercury years', () => {
+  test('Should calculate age into Mercury years', () => {
     expect(spaceAge.mercury()).toEqual(117);
   });
 
-  test('should calculate age into Venus years', () => {
+  test('Should calculate age into Venus years', () => {
     expect(spaceAge.venus()).toEqual(45);
   });
 
@@ -26,11 +26,15 @@ describe( 'SpaceAge', () => {
     expect(spaceAge.mars()).toEqual(15);
   }); 
 
-  test('should calculate age into Jupiter years', () => {
+  test('Should calculate age into Jupiter years', () => {
     expect(spaceAge.jupiter()).toEqual(2);
   });
 
-  test('should calculate remaining years on Mercury according to life expectancy', () => {
+  test('Should calculate remaining years on Mercury according to life expectancy', () => {
     expect(spaceAge.mercuryLife(spaceAge)).toEqual(216);
+  });
+
+  test('Should calculate how many years user has left to live on Venus', () => {
+    expect(spaceAge.venusLife(spaceAge)).toEqual(84)
   });
 });
