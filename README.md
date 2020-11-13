@@ -36,17 +36,16 @@ If you have node you should run `npm install` in command line to gain access to 
 
 | Test | Input | Output |
 | :------------- | :------------- | :------------- |
-| **User**|||
-| This will create and instance of User | "Kaila, 28" | "Kaila, 28" |
+| **Space Age**|||
+| Should create and instance of SpaceAge | "Kaila, 28" | "Kaila, 28" |
 | **Mercury Years** |||
-| This will create an instance of | Zack | Zack |
-| This will create an instance of PizzaOrder name | Zack | Zack |
+| Should calculate age into Mercury years | 28 | 117 |
 | **Venus Years** |||
-| This will convert user selection in to a total topping cost | cheese & tomato | 2.50 | 
+| SHould calculate age into Venus Years | 28 | 45 | 
 | **Mars Years**|||
-| This will convert user size selection into size price | medium | 12.99 |
+| Should calculate age into Mars Years | 28 | 15 |
 | **Jupiter Years**|||
-| This will add pizza size and toppings costs | 2.50, 12.99 | 15.49 |
+| Should calculate age into Jupiter Years | 28 | 2 |
 
 </details>
 
