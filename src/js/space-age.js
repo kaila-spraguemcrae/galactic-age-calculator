@@ -7,7 +7,7 @@ export default class SpaceAge {
   }
 
   convertAge(){
-    let arr = [0.24, 0.62, 1.88, 11.86] 
+    let arr = [0.24, 0.62, 1.88, 1.86] 
     for(let i=0; i < arr.length; i++) {
       this.newArr.push(Math.round(this.age / arr[i]));
     }
