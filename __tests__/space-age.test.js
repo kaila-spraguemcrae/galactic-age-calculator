@@ -68,4 +68,11 @@ describe( 'SpaceAge', () => {
     oldSpaceAge.lifeExpectancy();
     expect(oldSpaceAge.lifeArr[2]).toEqual(2);
   })
+
+  test('Should calculate how many years user has left to live on Jupiter', () => {
+    let oldSpaceAge = new SpaceAge("old Kaila", 85, 80);
+    oldSpaceAge.convertAge();
+    oldSpaceAge.lifeExpectancy();
+    expect(oldSpaceAge.lifeArr[3]).toEqual(0);
+  });
 });
