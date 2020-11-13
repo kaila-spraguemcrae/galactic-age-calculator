@@ -7,7 +7,7 @@ export default class SpaceAge {
   }
 
   convertAge(){
-    let arr = [0.24, 0.62, 1.88, 11.86] 
+    let arr = [0.24, 0.2, 1.88, 11.86] 
     for(let i=0; i < arr.length; i++) {
       this.newArr.push(Math.round(this.age / arr[i]));
     }
@@ -18,30 +18,18 @@ export default class SpaceAge {
     return result - this.newArr[0]; 
   }
 
-  venus() {
-    return Math.round(this.age / 0.62);
-  }
+  // venusLife() {
+  //   let result = Math.round(this.life / 0.62);
+  //   return result - this.newArr[1];
+  // }
 
-  venusLife(obj) {
-    let result = Math.round(this.life / 0.62);
-    return result - obj.venus();
-  }
+  // marsLife() {
+  //   let result = Math.round(this.life / 1.88);
+  //   return result - this.newArr[2];
+  // }
 
-  mars() {
-    return Math.round(this.age / 1.88);
-  }
-
-  marsLife(obj) {
-    let result = Math.round(this.life / 1.88);
-    return result - obj.mars();
-  }
-
-  jupiter() {
-    return Math.round(this.age / 11.86);
-  }
-
-  jupiterLife(obj) {
-    let result = Math.round(this.life / 11.86);
-    return result - obj.jupiter();
-  }
+  // jupiterLife() {
+  //   let result = Math.round(this.life / 11.86);
+  //   return result - this.newArr[3];
+  // }
 };
