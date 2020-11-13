@@ -11,6 +11,7 @@ describe( 'SpaceAge', () => {
   test('should create and instance of SpaceAge', () => {
     expect(spaceAge.name).toEqual("Kaila");
     expect(spaceAge.age).toEqual(28);
+    expect(spaceAge.life).toEqual(83);
   });
 
   test('should calculate age into Mercury years', () => {

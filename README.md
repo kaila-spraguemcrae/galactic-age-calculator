@@ -37,7 +37,7 @@ If you have node you should run `npm install` in command line to gain access to 
 | Test | Input | Output |
 | :------------- | :------------- | :------------- |
 | **Space Age**|||
-| Should create and instance of SpaceAge | "Kaila, 28" | "Kaila, 28" |
+| Should create and instance of SpaceAge | "Kaila, 28, 80" | "Kaila, 28, 80" |
 | **Mercury Years** |||
 | Should calculate age into Mercury years | 28 | 117 |
 | **Venus Years** |||
