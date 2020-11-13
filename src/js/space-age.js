@@ -19,7 +19,8 @@ export default class SpaceAge {
   }
 
   venusLife(obj) {
-    
+    let result = Math.round(this.life / 0.62);
+    return result - obj.venus();
   }
 
   mars() {
