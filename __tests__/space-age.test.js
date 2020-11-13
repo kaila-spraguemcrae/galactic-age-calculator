@@ -12,4 +12,8 @@ describe( 'SpaceAge', () => {
     expect(spaceAge.name).toEqual("Kaila");
     expect(spaceAge.age).toEqual(28);
   });
+
+  test('should calculate age into Mercury years', () => {
+    expect(spaceAge.Mercury()).toEqual(117);
+  });
 });
