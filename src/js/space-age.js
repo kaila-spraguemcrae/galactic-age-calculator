@@ -10,7 +10,8 @@ export default class SpaceAge {
   }
 
   mercuryLife(obj) {
-     
+    let result = Math.round(this.life / 0.24);
+    return result - obj.mercury(); 
   }
 
   venus() {
