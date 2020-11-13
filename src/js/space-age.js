@@ -18,6 +18,10 @@ export default class SpaceAge {
     return Math.round(this.age / 0.62);
   }
 
+  venusLife(obj) {
+    
+  }
+
   mars() {
     return Math.round(this.age / 1.88);
   }
