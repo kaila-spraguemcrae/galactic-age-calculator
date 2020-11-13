@@ -3,16 +3,24 @@ export default class SpaceAge {
     this.name = name;
     this.age = age;
     this.life = life;
+    this.newArr = []
   }
 
-  mercury() {
-    return Math.round(this.age / 0.24);
+  convertAge(){
+    let arr = [0.4, 0.62, 1.88, 11.86] 
+    for(let i=0; i < arr.length; i++) {
+      this.newArr.push(Math.round(this.age / arr[i]));
+    }
   }
 
-  mercuryLife(obj) {
-    let result = Math.round(this.life / 0.24);
-    return result - obj.mercury(); 
-  }
+  // mercury() {
+  //   return Math.round(this.age / 0.24);
+  // }
+
+  // mercuryLife(obj) {
+  //   let result = Math.round(this.life / 0.24);
+  //   return result - obj.mercury(); 
+  // }
 
   venus() {
     return Math.round(this.age / 0.62);
