@@ -47,4 +47,8 @@ describe( 'SpaceAge', () => {
     expect(spaceAge.jupiterLife()).toEqual(5);
   });
 
+  test('Should calculate how many years user has left to live on Mercury', () =>{
+    let oldSpaceAge = new SpaceAge("old Kaila", 85, 80);
+    expect(oldSpaceAge.mercuryLife()).toEqual(21);
+  });
 });
