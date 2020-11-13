@@ -15,6 +15,7 @@ export default class SpaceAge {
   }
 
   mars() {
-    
+    let result = this.age / 1.88;
+    return Math.round(result);
   }
 };
