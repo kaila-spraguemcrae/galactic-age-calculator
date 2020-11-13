@@ -10,6 +10,7 @@ export default class SpaceAge {
   }
 
   venus() {
-    
+    let result = this.age / 0.62;
+    return Math.round(result);
   }
 };
