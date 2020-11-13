@@ -9,6 +9,10 @@ export default class SpaceAge {
     return Math.round(this.age / 0.24);
   }
 
+  mercuryLife(obj) {
+     
+  }
+
   venus() {
     return Math.round(this.age / 0.62);
   }

@@ -29,7 +29,7 @@ To run this project locally you will need to have node. You can check if you hav
 If you have node you should run `npm install` in command line to gain access to webpack.
 
 ## Known Bugs
-
+  _no known bugs at this time_
 ## Specs
 
 <details> 
@@ -38,14 +38,17 @@ If you have node you should run `npm install` in command line to gain access to 
 | :------------- | :------------- | :------------- |
 | **Space Age**|||
 | Should create and instance of SpaceAge | "Kaila, 28, 80" | "Kaila, 28, 80" |
-| **Mercury Years** |||
+| **Mercury Age** |||
 | Should calculate age into Mercury years | 28 | 117 |
-| **Venus Years** |||
+| **Venus Age** |||
 | SHould calculate age into Venus Years | 28 | 45 | 
-| **Mars Years**|||
+| **Mars Age**|||
 | Should calculate age into Mars Years | 28 | 15 |
-| **Jupiter Years**|||
+| **Jupiter Age**|||
 | Should calculate age into Jupiter Years | 28 | 2 |
+| **Mercury Life Expectancy** |||
+| Should calculate how many years user has left to live| 28, 80 | 216 years left |
+
 
 </details>
 

@@ -29,4 +29,8 @@ describe( 'SpaceAge', () => {
   test('should calculate age into Jupiter years', () => {
     expect(spaceAge.jupiter()).toEqual(2);
   });
+
+  test('should calculate remaining years on Mercury according to life expectancy', () => {
+    expect(spaceAge.mercuryLife(spaceAge)).toEqual(216);
+  });
 });
