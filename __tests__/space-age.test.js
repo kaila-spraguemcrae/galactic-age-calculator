@@ -35,15 +35,15 @@ describe( 'SpaceAge', () => {
     expect(spaceAge.mercuryLife()).toEqual(216);
   });
 
-  // test('Should calculate how many years user has left to live on Venus', () => {
-  //   expect(spaceAge.venusLife(spaceAge)).toEqual(84);
-  // });
+  test('Should calculate how many years user has left to live on Venus', () => {
+    expect(spaceAge.venusLife()).toEqual(84);
+  });
 
-  // test('Should calculate how many years user has left to live on Mars', () => {
-  //     expect(spaceAge.marsLife(spaceAge)).toEqual(28);
-  // });
+  test('Should calculate how many years user has left to live on Mars', () => {
+      expect(spaceAge.marsLife()).toEqual(28);
+  });
 
-  // test('Should calculate how many years user has left to live on Jupiter', () => {
-  //   expect(spaceAge.jupiterLife(spaceAge)).toEqual(5);
-  // });
+  test('Should calculate how many years user has left to live on Jupiter', () => {
+    expect(spaceAge.jupiterLife()).toEqual(5);
+  });
 });

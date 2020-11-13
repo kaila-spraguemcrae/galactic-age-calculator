@@ -18,18 +18,18 @@ export default class SpaceAge {
     return result - this.newArr[0]; 
   }
 
-  // venusLife() {
-  //   let result = Math.round(this.life / 0.62);
-  //   return result - this.newArr[1];
-  // }
+  venusLife() {
+    let result = Math.round(this.life / 0.62);
+    return result - this.newArr[1];
+  }
 
-  // marsLife() {
-  //   let result = Math.round(this.life / 1.88);
-  //   return result - this.newArr[2];
-  // }
+  marsLife() {
+    let result = Math.round(this.life / 1.88);
+    return result - this.newArr[2];
+  }
 
-  // jupiterLife() {
-  //   let result = Math.round(this.life / 11.86);
-  //   return result - this.newArr[3];
-  // }
+  jupiterLife() {
+    let result = Math.round(this.life / 11.86);
+    return result - this.newArr[3];
+  }
 };
