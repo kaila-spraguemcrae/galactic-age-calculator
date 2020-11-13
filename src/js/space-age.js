@@ -4,4 +4,7 @@ export default class SpaceAge {
     this.age = age;
   }
 
+  mercury() {
+    
+  }
 };
