@@ -18,4 +18,8 @@ export default class SpaceAge {
     let result = this.age / 1.88;
     return Math.round(result);
   }
+
+  jupiter() {
+    
+  }
 };
