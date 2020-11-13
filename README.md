@@ -1,32 +1,54 @@
-# {Application Name}
+# Super Galactic Age Calculator
 
-#### {Brief description of applicaton}, {Date of current version}
+#### This application will determine a user's age based on a planet's solar years, 11.13.2020
 
-#### By _**{List of contributors}**_
+#### By _**Kaila Sprague McRae**_
 
 ## Description
 
-{Detailed description, its purpose and usage. What does it does and other information.}
+_This program will determine a user's age based on the solar years of different planets in the Solar System. The program will also calculate the life expectancy of the user based on each planet._
 
 ## Setup/Installation Requirements
 
 ### View Online
 
-_To view my live website, {Name of Page}, visit_[https://kaila-spraguemcrae.github.io/FINISH-URL](https://kaila-spraguemcrae.github.io/FINISH-URL)
+_To view my live website, Super Galactic Age Calculator, visit_ [https://kaila-spraguemcrae.github.io/galactic-age-calculator](https://kaila-spraguemcrae.github.io/galactic-age-calculator)
 
 ### Open Locally
 
-Go to my GitHub repository here, [https://guthub.com/kaila.spraguemcrae/FINISH-URL](https://guthub.com/kaila.spraguemcrae/FINISH-URL), and click on the green 'Code' button to clone the repository, Open with GitHub Desktop OR Download the ZIP file
+Go to my GitHub repository here, [https://guthub.com/kaila.spraguemcrae/galactic-age-calculator](https://guthub.com/kaila.spraguemcrae/galactic-age-calculator), and click on the green 'Code' button to clone the repository, Open with GitHub Desktop OR Download the ZIP file
 
 ##### To clone:
 1. Push the green 'Clone' button and copy the URL.
-2. Open Terminal or GitBash and input the command: `git clone https://github.com/kaila-spraguemcrae/FINISH-URL`
+2. Open Terminal or GitBash and input the command: `git clone https://github.com/kaila-spraguemcrae/galactic-age-calculator`
 3. To view the code, open the copied directory with Visual Studio Code or your preferred text editor by inputing the command `code .` in your terminal.
 4. To view the website, open index.html in Chrome or your preferred browser.
 
-Run `npm install` in terminal to gain access to webpack
+To run this project locally you will need to have node. You can check if you have node by running `node -v` in the command line. If you do not have node please find more information and download [here](https://nodejs.org/en/download/)
+
+If you have node you should run `npm install` in command line to gain access to webpack.
 
 ## Known Bugs
+
+## Specs
+
+<details> 
+
+| Test | Input | Output |
+| :------------- | :------------- | :------------- |
+| **User**|||
+| This will create and instance of User | "Kaila, 28" | "Kaila, 28" |
+| **Mercury Years** |||
+| This will create an instance of | Zack | Zack |
+| This will create an instance of PizzaOrder name | Zack | Zack |
+| **Venus Years** |||
+| This will convert user selection in to a total topping cost | cheese & tomato | 2.50 | 
+| **Mars Years**|||
+| This will convert user size selection into size price | medium | 12.99 |
+| **Jupiter Years**|||
+| This will add pizza size and toppings costs | 2.50, 12.99 | 15.49 |
+
+</details>
 
 ## Support and contact details
 
