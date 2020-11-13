@@ -66,6 +66,6 @@ describe( 'SpaceAge', () => {
     let oldSpaceAge = new SpaceAge("old Kaila", 85, 80);
     oldSpaceAge.convertAge();
     oldSpaceAge.lifeExpectancy();
-    expect(oldSpaceAge.lifeArr[2].toEqual(2));
+    expect(oldSpaceAge.lifeArr[2]).toEqual(2);
   })
 });
