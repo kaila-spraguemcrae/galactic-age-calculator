@@ -61,4 +61,11 @@ describe( 'SpaceAge', () => {
     oldSpaceAge.lifeExpectancy();
     expect(oldSpaceAge.lifeArr[1]).toEqual(8);
   });
+
+  test('Should calculate how many years user has left to live on Mars', () => {
+    let oldSpaceAge = new SpaceAge("old Kaila", 85, 80);
+    oldSpaceAge.convertAge();
+    oldSpaceAge.lifeExpectancy();
+    expect(oldSpaceAge.lifeArr[2].toEqual(2));
+  })
 });
