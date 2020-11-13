@@ -6,6 +6,8 @@ describe( 'SpaceAge', () => {
 
   beforeEach(() => {
     spaceAge = new SpaceAge("Kaila", 28, 80);
+    spaceAge.convertAge();
+    console.log(spaceAge.newArr);
   });
 
   test('Should create and instance of SpaceAge', () => {
@@ -15,7 +17,6 @@ describe( 'SpaceAge', () => {
   });
 
   test('Should calculate age into Mercury years', () => {
-    spaceAge.convertAge();
     expect(spaceAge.newArr[0]).toEqual(117);
   });
 
@@ -31,9 +32,9 @@ describe( 'SpaceAge', () => {
     expect(spaceAge.jupiter()).toEqual(2);
   });
 
-  // test('Should calculate remaining years on Mercury according to life expectancy', () => {
-  //   expect(spaceAge.mercuryLife(spaceAge)).toEqual(216);
-  // });
+  test('Should calculate remaining years on Mercury according to life expectancy', () => {
+    expect(spaceAge.mercuryLife()).toEqual(216);
+  });
 
   test('Should calculate how many years user has left to live on Venus', () => {
     expect(spaceAge.venusLife(spaceAge)).toEqual(84);

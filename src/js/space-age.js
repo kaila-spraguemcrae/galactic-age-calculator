@@ -13,14 +13,10 @@ export default class SpaceAge {
     }
   }
 
-  // mercury() {
-  //   return Math.round(this.age / 0.24);
-  // }
-
-  // mercuryLife(obj) {
-  //   let result = Math.round(this.life / 0.24);
-  //   return result - obj.mercury(); 
-  // }
+  mercuryLife() {
+    let result = Math.round(this.life / 0.24);
+    return result - this.newArr[0]; 
+  }
 
   venus() {
     return Math.round(this.age / 0.62);
