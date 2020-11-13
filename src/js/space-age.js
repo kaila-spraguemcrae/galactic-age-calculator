@@ -5,6 +5,7 @@ export default class SpaceAge {
   }
 
   mercury() {
-    
+    let result = this.age / 0.24
+    return Math.round(result);
   }
 };
