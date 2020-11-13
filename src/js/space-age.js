@@ -17,7 +17,8 @@ export default class SpaceAge {
     let result = Math.round(this.life / 0.24);
     if (this.ageArr[0] <=  result) {
       return result - this.ageArr[0]; 
-    } 
+    }  
+    return this.ageArr[0] - result;
   }
 
   venusLife() {
