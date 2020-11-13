@@ -37,6 +37,7 @@ export default class SpaceAge {
   }
 
   jupiterLife(obj) {
-    
+    let result = Math.round(this.life / 11.86);
+    return result - obj.jupiter();
   }
 };
