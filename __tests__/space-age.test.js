@@ -5,13 +5,13 @@ describe( 'SpaceAge', () => {
   let spaceAge;
 
   beforeEach(() => {
-    spaceAge = new SpaceAge("Kaila", 28);
+    spaceAge = new SpaceAge("Kaila", 28, 80);
   });
 
   test('should create and instance of SpaceAge', () => {
     expect(spaceAge.name).toEqual("Kaila");
     expect(spaceAge.age).toEqual(28);
-    expect(spaceAge.life).toEqual(83);
+    expect(spaceAge.life).toEqual(80);
   });
 
   test('should calculate age into Mercury years', () => {

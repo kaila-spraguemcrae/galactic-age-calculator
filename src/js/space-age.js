@@ -1,8 +1,8 @@
 export default class SpaceAge {
-  constructor(name, age) {
+  constructor(name, age, life) {
     this.name = name;
     this.age = age;
-    
+    this.life = life;
   }
 
   mercury() {
