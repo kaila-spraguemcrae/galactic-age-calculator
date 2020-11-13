@@ -10,6 +10,6 @@ describe( 'SpaceAge', () => {
 
   test('should create and instance of SpaceAge', () => {
     expect(spaceAge.name).toEqual("Kaila");
-    expect(spaceAge.age).toEqaul(28);
+    expect(spaceAge.age).toEqual(28);
   });
 });
