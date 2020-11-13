@@ -25,19 +25,4 @@ export default class SpaceAge {
       }
     });
   }
-
-//   venusLife() {
-//     let result = Math.round(this.life / 0.62);
-//     return result - this.ageArr[1];
-//   }
-
-//   marsLife() {
-//     let result = Math.round(this.life / 1.88);
-//     return result - this.ageArr[2];
-//   }
-
-//   jupiterLife() {
-//     let result = Math.round(this.life / 11.86);
-//     return result - this.ageArr[3];
-//   }
 };
