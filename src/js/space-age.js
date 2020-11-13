@@ -9,17 +9,15 @@ export default class SpaceAge {
   }
 
   venus() {
-    let result = this.age / 0.62;
-    return Math.round(result);
+    return Math.round(this.age / 0.2);
   }
 
   mars() {
-    let result = this.age / 1.88;
-    return Math.round(result);
+    return Math.round(this.age / 1.88);
+    
   }
 
   jupiter() {
-    let result = this.age / 11.86;
-    return Math.round(result);
+    return Math.round(this.age / 11.86);
   }
 };
