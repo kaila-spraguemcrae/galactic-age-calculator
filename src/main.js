@@ -8,11 +8,15 @@ $(document).ready(function() {
   $("form#user-input").submit(function(event) {
     event.preventDefault();
 
-    $("#galactic-age").show();
-
     const inputtedName = $("input#name").val();
     const inputtedAge = parseInt($("input#age").val());
     const inputtedLife = parseInt($("input#life-expectancy").val());
+
+    if ((inputtedName.length) > 0 && inputtedAge > -1 && inputtedLife > -1){
+      $("#galactic-age").show();
+    } else {
+      alert("Please tell us your name! and input a number greater or equal to 0!");
+    }
 
     let spaceAge = new SpaceAge(inputtedName, inputtedAge, inputtedLife);
 
@@ -35,5 +39,6 @@ $(document).ready(function() {
       $("#mars-expectancy").html(`You have lived ${spaceAge.lifeArr[2]} years over the life expectancy on Mars`);
       $("#jupiter-expectancy").html(`You have lived ${spaceAge.lifeArr[3]} years over the life expectancy on Jupiter`);
     }
+    $("form#user-input")[0].reset();
   });
 });

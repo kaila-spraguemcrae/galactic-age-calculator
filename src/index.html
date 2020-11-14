@@ -11,46 +11,60 @@
     <div class="jumbotron">
       <h1>Super Galactic Age Calculator</h1>
     </div>
-    <form id="user-input">
-      <div class="form-group">
-        <input id="name" class="form-control" type="text" placeholder="name">
-        <input id="age" class="form-control" type="text" placeholder="age">
-        <input id="life-expectancy" class="form-control" type="text" placeholder="life expectancy">
+    <div class="col-md-8">
+      <form id="user-input">
+        <div class="form-group">
+          <input id="name" class="form-control" type="text" placeholder="name">
+          <input id="age" class="form-control" type="text" placeholder="age">
+          <input id="life-expectancy" class="form-control" type="text" placeholder="life expectancy">
+        </div>
+        <button type="submit" id="button" class="btn-white">See your <strong>Galactic Age!</strong></button>
       </div>
-      <button type="submit" id="button" class="btn warning">See your <strong>Galactic Age!</strong></button>
     </form>
     <div id="galactic-age">
       <h1>Galactic Age</h1>
-      <div class="card" id="mercury">
-        <div class="card-body">
-          <h3 class="card-title">Mercury</h3>
-          <img src="./assets/images/mercury.jpg" alt="image of mercury">
-          <p id="mercury-age"></p>
-          <p id="mercury-expectancy"></p>
+      <div class="row">
+        <div class="col">
+          <div class="card" id="mercury">
+            <div class="card-body">
+              <h3 class="card-title">Mercury</h3>
+              <img src="./assets/images/mercury.jpg" alt="image of mercury">
+              <p id="mercury-age"></p>
+              <p id="mercury-expectancy"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card" id="venus">
+            <div class="card-body">
+              <h3 class="card-title">Venus</h3>
+              <img src="./assets/images/venus.jpg" alt="image of venus">
+              <p id="venus-age"></p>
+              <p id="venus-expectancy"></p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card" id="venus">
-        <div class="card-body">
-          <h3 class="card-title">Venus</h3>
-          <img src="./assets/images/venus.jpg" alt="image of venus">
-          <p id="venus-age"></p>
-          <p id="venus-expectancy"></p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card" id="mars">
+            <div class="card-body">
+              <h3 class="card-title">Mars</h3>
+              <img src="./assets/images/mars.jpg" alt="image of mars">
+              <p id="mars-age"></p>
+              <p id="mars-expectancy"></p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card" id="mars">
-        <div class="card-body">
-          <h3 class="card-title">Mars</h3>
-          <img src="./assets/images/mars.jpg" alt="image of mars">
-          <p id="mars-age"></p>
-          <p id="mars-expectancy"></p>
-        </div>
-      </div>
-      <div class="card" id="jupiter">
-        <div class="card-body">
-          <h3 class="card-title">Jupiter</h3>
-          <img src="./assets/images/jupiter.jpg" alt="image of jupiter">
-          <p id="jupiter-age"></p>
-          <p id="jupiter-expectancy"></p>
+        <div class="col-md-6">
+          <div class="card" id="jupiter">
+            <div class="card-body">
+              <h3 class="card-title">Jupiter</h3>
+              <img src="./assets/images/jupiter.jpg" alt="image of jupiter">
+              <p id="jupiter-age"></p>
+              <p id="jupiter-expectancy"></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

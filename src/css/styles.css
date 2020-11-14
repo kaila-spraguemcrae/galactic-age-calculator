@@ -1,10 +1,22 @@
 #galactic-age {
   display: none;
+  margin: 10px;
 }
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(253, 255, 121);
+}
+
+.jumbotron h1 {
+  font-size: 55px;
+  text-align: center;
+}
+
 
 body {
   font-family: 'Audiowide', cursive;
-  background-image: url(../assets/images/background.jpg);
+  background-image: url(../assets/images/background1.jpg);
 }
   img {
   max-width: 300px;
@@ -13,4 +25,17 @@ body {
 
   .card {
     background-color: rgba(255, 255, 255, 0.575);
+    margin-bottom: 20px;
+  }
+
+  .col-md-8 {
+    margin: auto;
+  }
+  .card-body {
+    text-align: center;
+  }
+
+  p {
+    margin: 10px;
+    font-size: 18px;
   }
