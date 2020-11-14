@@ -29,7 +29,7 @@ To run this project locally you will need to have node. You can check if you hav
 If you have node you should run `npm install` in command line to gain access to webpack.
 
 ## Known Bugs
-  _no known bugs at this time_
+  _currently having issues deploying finished project to gh-pages_
 ## Specs
 
 <details> 
