@@ -1,3 +1,11 @@
 #galactic-age {
   display: none;
 }
+
+body {
+  font-family: 'Audiowide', cursive;
+}
+ img {
+  max-width: 300px;
+  min-width: 80%;
+ }
