@@ -7,7 +7,6 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: "https://kaila-spraguemcrae.github.io/galactic-age-calculator"
   },
   devtool: 'eval-source-map',
   devServer: {

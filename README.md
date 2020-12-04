@@ -8,6 +8,8 @@
 
 _This program will determine a user's age based on the solar years of different planets in the Solar System. The program will also calculate the life expectancy of the user based on each planet._
 
+![webpage on load](./src/assets/images/page-on-load.jpg "screenshot of webpage with user inputs for name, age and life expectancy. Background is a vintage scifi illustration")
+
 ## Setup/Installation Requirements
 
 ### View Online
